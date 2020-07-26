@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Me</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+	<style type="text/css">
+
+		/*for mobile */
+
+		*{
+			
+			padding: 0px;
+			margin: 0px;
+		}
+		body{
+			background: #833ab4;  /* fallback for old browsers */
+			background: -webkit-linear-gradient(to left, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to left, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			  text-align: center;
+
+ 
+
+		}
+		.heading{
+		
+			color:black;  /* fallback for old browsers */
+
+
+             font-weight: bolder;
+             text-shadow: 4px 3px white;
+             font-size: 50pt;
+             padding-top: 2em;
+             text-decoration:underline;
+
+		}
+		#hide{
+		    margin-left: 70px;
+			width: 500px;
+				height: 500px;
+  				border-radius:50%;
+  				margin-top:7em;
+  			
+		}
+		
+		.section
+		{
+			
+			display: block;
+			
+			
+		}
+
+		.about
+			{
+		        margin-left: 60px;
+				width: 80%;
+				height: 40%;
+				
+				font-size: 38pt;
+			    color:white;
+				padding: 1em;
+			}
+
+			.img {
+				
+  				display: none; 
+  				}
+
+  			.logo{
+  				width: 80px;
+  				height: 80px;
+  				display:inline;
+  				margin-left:5em  ;
+  				margin-top:8em;
+
+  			}
+
+  			#logo1:hover{
+  				background-color: #ea4c89;
+  			}
+  			
+  			#logo2:hover{
+  				background-color: #38a1f3;
+  			}
+            #logo3:hover{
+  				background-color: grey;
+  			}
+
+		 /*for desktop */
+
+		@media only screen and ( min-width:1024px){
+		*{
+			
+			padding: 0px;
+			margin: 0px;
+		}
+		body{
+		background: #833ab4;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to left, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to left, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	    	}
+
+		.heading{
+			margin-left:1em;
+			color:black;  /* fallback for old browsers */
+
+
+             font-weight: bolder;
+             text-shadow: 4px 3px white;
+             font-size: 35px;
+             padding-top: 2em;
+             text-decoration:underline;
+
+		}
+		#hide{
+			display: none;
+		}
+		
+		.section
+		{
+			
+			display: flex;
+			
+			
+		}
+
+		#about
+			{
+				margin-left: 7em;
+				width: 30%;
+				height: 70%;
+				margin-top:4.5em;
+				font-size: 22px;
+			    color:white;
+
+
+				
+				padding: 1em;
+			}
+
+			.img {
+				width: 220px;
+				height: 220px;
+  				border-radius:50%;
+  				margin-top:7em;
+  				padding: 1em; 
+  				display: block;
+  				}
+
+  			.logo{
+  				width: 50px;
+  				height: 50px;
+  				display: block;
+  				margin-left: 10em ;
+  				margin-top: 4em;
+
+  			}
+
+  			#logo1:hover{
+  				background-color: #ea4c89;
+  			}
+  			
+  			#logo2:hover{
+  				background-color: #38a1f3;
+  			}
+            #logo3:hover{
+  				background-color: grey;
+  			}
+
+ 		
+}
+
+
+	</style>
+
+</head>
+<body>
+
+	<header class="heading">
+		<h1>ABOUT ME</h1>
+	</header>
+
+	<section class="section">
+           <div id="about">
+           	<img  id="hide" src="my photo.jpeg" alt="my pic">
+           	   <p  class="para">
+           	   	Hello everyone, My Name is <strong> Ashish Magadum</strong>, and Iam a <strong>Computer Science  Engineering Student at the KLS Gogte Institute of Technology ,Belgaum</strong> .I am a develper and also a designer .If you have any project or if you want a software for your company contact me.I make as soon as possible you really like my work , if you don't i change this until you like i give satisfaction result.
+
+           	   </p>
+
+           </div>
+
+
+		<div >
+			<img class="img" src="my photo.jpeg" alt="my pic">
+        </div>
+
+        <div>
+        	<a href="#">
+        		<img id="logo1" class="logo"   src="instagram.png" alt="instagram" >
+
+        	</a>
+        	<a href="#">
+        		<img id="logo2" class="logo" src="facebook.png" alt="facebook">
+        		
+        	</a>
+        	<a href="#">
+        		<img id="logo3" class="logo" src="github.png" alt="github">
+        		
+        	</a>
+        </div>
+	</section>
+
+</body>
+</html>
